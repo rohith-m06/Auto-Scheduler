@@ -28,32 +28,6 @@ An intelligent timetable generator for VIT students. Upload your course data, se
 - Firebase project with Auth and Firestore enabled
 - Google AI Studio API key
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/auto-scheduler.git
-   cd auto-scheduler
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env.local` file with your API keys:
-   ```
-   GEMINI_API_KEY=your_gemini_api_key
-   ```
-
-4. Update Firebase config in `services/firebase.ts` with your project credentials.
-
-5. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-6. Open http://localhost:3000
 
 ## Usage
 
@@ -65,18 +39,3 @@ An intelligent timetable generator for VIT students. Upload your course data, se
 6. **Analyze** - Use AI chat to get insights about your schedules
 7. **Save Favorites** - Star your preferred timetables for easy access
 
-## Deployment
-
-Build for production:
-```bash
-npm run build
-```
-
-Deploy to Vercel:
-```bash
-vercel --prod
-```
-
-## License
-
-MIT
