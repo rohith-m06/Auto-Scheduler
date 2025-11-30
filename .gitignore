@@ -39,3 +39,5 @@ Thumbs.db
 
 # Package lock (optional - uncomment if you want to exclude)
 # package-lock.json
+
+.vercel
